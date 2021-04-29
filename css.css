@@ -1,0 +1,86 @@
+button{
+	position: absolute;
+	left: 584px;
+	height:46px;
+	width:59px;
+	margin-top: -78px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#ponto{
+	background-color: red;
+	background-image: url('images/ponto.png');
+	top: 86px;
+}
+#linha{
+	background-color: red;
+	background-image: url('images/linha.png');
+	top: 134px;
+}
+
+#poligno{
+	background-color: red;
+	background-image: url('images/poligno.png');
+	top: 182px;
+}
+
+#bezier{
+	background-color: red;
+	background-image: url('images/bezier.png');
+	top: 230px;
+}
+
+#circulo{
+	background-color: red;
+	background-image: url('images/circulo.png');
+	top: 278px;
+}
+#retangulo{
+	background-color: red;
+	background-image: url('images/retangulo.jpg');
+	top: 326px;
+}
+#pincel{
+	background-color: red;
+	background-image: url('images/pincel.png');
+	top: 374px;
+
+}
+
+
+
+
+
+#clear{
+	background-color: rgb(152, 212, 73);
+	top: 445px;
+	font-size:11pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+
+
+#container { position: relative; }
+#imageView {
+	border: 8px solid;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-block: 30px;
+	
+}
+#imageTemp { 
+	position: absolute; 
+	padding-left: 30px;
+    padding-right: 59px;
+}
+
+#h1{
+    text-align: center;
+    background-color: #851944;
+    color: white;
+    font-family: "Open Sans Condesed", sans-serif;
+
+}

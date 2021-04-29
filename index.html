@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Trabalho CG</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+		body{
+	background-color:gray;
+}
+	</style>
+
+	<style type="text/css"><!--
+      #container { 
+		  position: relative;
+	 }
+      #imageView {
+	border: 8px solid;
+		}
+      #imageTemp {
+	position: absolute; 
+     top: 1px; 
+	 left: 1px;
+		
+		}
+    h2 {
+       color: red;
+}
+
+ 
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="imageView" width="500" height="350">
+
+      </canvas>
+    </div>
+	<div class="divButton" id="dtool" >
+		<button id='ponto'  title="point" onclick="click()"></button>
+		<button id="linha" title="line" ></button>
+		<button id="poligno" title="polygon" ></button>
+		<button id="bezier" title="bezier" ></button> 
+		<button id="circulo" title="circle" ></button>
+		<button id="retangulo" title="rect" ></button>
+		<button id="pincel" title="pencil" ></button>	
+	</div>
+
+   <h2> <label for="edge">QUANTIDADE DE ARESTAS PARA FORMAR UM POLIGNO:</label> </h2>
+    <input type="number" id="edge">
+
+    <p id="coordenadas_poligono"></p>
+    <p id="x_poligono"></p>
+    <p id="y_poligono"></p>
+
+    
+    
+
+   
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
